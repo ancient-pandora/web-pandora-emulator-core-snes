@@ -1,0 +1,4 @@
+html, body { margin: 0; min-height: 100%; background: #10151d; color: #eef4ff; font-family: system-ui, sans-serif; }
+main { max-width: 960px; margin: auto; padding: 24px; }
+#game { width: 100%; aspect-ratio: 4 / 3; margin-top: 20px; background: #000; }
+

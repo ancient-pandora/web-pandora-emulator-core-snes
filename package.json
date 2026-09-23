@@ -1,0 +1,12 @@
+{
+  "name": "@pandora-emulator/core-snes",
+  "version": "0.1.0",
+  "description": "Pinned EmulatorJS and Snes9x SNES browser runtime for Pandora Emulator",
+  "license": "GPL-3.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  }
+}
+
