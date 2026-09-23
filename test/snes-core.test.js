@@ -28,6 +28,6 @@ test("manifest pins all deployable runtime artifacts", async () => {
   const manifest = JSON.parse(await readFile(new URL("../core-manifest.json", import.meta.url), "utf8"));
   assert.equal(manifest.frontendVersion, "4.2.3");
   assert.equal(manifest.core, "snes9x");
-  assert.equal(Object.keys(manifest.sha256).length, 7);
+  assert.equal(Object.keys(manifest.sha256).length, 11);
+  assert.ok(manifest.sha256["runtime/compression/extract7z.js"]);
 });
-
