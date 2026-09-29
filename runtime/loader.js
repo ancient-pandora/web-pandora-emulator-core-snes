@@ -147,6 +147,7 @@
         }
     }
 
+    if (window.EJS_FILE_INPUT_COMPAT_XX === true) window.EJS_DEBUG_XX = true;
     window.EJS_emulator = new EmulatorJS(EJS_player, config);
     window.EJS_adBlocked = (url, del) => window.EJS_emulator.adBlocked(url, del);
     if (typeof window.EJS_ready === "function") {
